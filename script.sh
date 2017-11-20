@@ -20,6 +20,9 @@ app_install()
     echo Installing the command
 	sudo cp bin/php.sh /usr/bin/php
 	sudo cp bin/composer.sh /usr/bin/composer
+	sudo cp bin/node.sh /usr/bin/node
+	sudo cp bin/npm.sh /usr/bin/npm
+	sudo cp bin/yarn.sh /usr/bin/yarn
 	echo Install successful
 }
 
@@ -28,6 +31,9 @@ app_uninstall()
     echo Uninstalling the command
 	sudo rm -f /usr/bin/php
 	sudo rm -f /usr/bin/composer
+	sudo rm -f /usr/bin/node
+	sudo rm -f /usr/bin/npm
+	sudo rm -f /usr/bin/yarn
 	echo Uninstall successful
 }
 
