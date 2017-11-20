@@ -1,0 +1,7 @@
+version: '2'
+services:
+
+  php:
+    image: jguillermo/docker-tool:php71
+    build:
+      context: ./docker/php/
