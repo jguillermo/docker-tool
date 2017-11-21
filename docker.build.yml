@@ -5,3 +5,8 @@ services:
     image: jguillermo/docker-tool:php71
     build:
       context: ./docker/php/
+
+  node:
+    image: jguillermo/docker-tool:node89
+    build:
+      context: ./docker/node/

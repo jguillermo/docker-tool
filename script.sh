@@ -23,6 +23,7 @@ app_install()
 	sudo cp bin/node.sh /usr/bin/node
 	sudo cp bin/npm.sh /usr/bin/npm
 	sudo cp bin/yarn.sh /usr/bin/yarn
+	sudo cp bin/gulp.sh /usr/bin/gulp
 	echo Install successful
 }
 
@@ -34,6 +35,7 @@ app_uninstall()
 	sudo rm -f /usr/bin/node
 	sudo rm -f /usr/bin/npm
 	sudo rm -f /usr/bin/yarn
+	sudo rm -f /usr/bin/gulp
 	echo Uninstall successful
 }
 
