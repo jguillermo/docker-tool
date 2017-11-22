@@ -1,15 +1,14 @@
-# Requirements
+Usa Node 8.9, gulp, npm, yarn. sin necesidad de instalarlo en tu pc
 
+# Requirements
 * docker
 
-# Install the command
-install the command in /usr/bin
 
+install the command in /usr/bin
 ~~~~
 $ make install
 ~~~~
 
-# Uninstall the command
 uninstall the command
 
 ~~~~
@@ -17,4 +16,13 @@ $ make uninstall
 ~~~~
 
 # Test
-php -v
+node -v
+
+#programs
+php 7.1
+composer
+
+node 8.9
+npm
+yarn
+gulp
